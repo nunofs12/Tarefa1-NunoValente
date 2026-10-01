@@ -137,7 +137,7 @@ th {
 }
 
 @media (max-width: 768px) {
-  #nav {
+  #nav > a {
     display: flex;
     flex-direction: column;
   }
