@@ -136,6 +136,9 @@ th {
   transform: scale(1.1);
 }
 
-@media (max-width:768px) {
-  #nav{}
+@media (max-width: 768px) {
+  #nav {
+    display: flex;
+    flex-direction: column;
+  }
 }
