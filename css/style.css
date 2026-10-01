@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: #05204a;
+  line-height: 1.5em;
+}
+
+h1 {
+  color: #05204a;
+}
+
+#nav {
+  width: 100%;
+  text-align: right;
+  padding: 20px 0;
+  background-color: #fbd87f;
+}
+
+nav {
+  padding-right: 30px;
+}
+
+#nav a,
+a:visited {
+  color: black;
+}
+
+#nav a:hover {
+  color: white;
+}
+
+#Sobre {
+  padding: 5% 10%;
+  background-color: #f4fffd;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5%;
+}
+
+#hobbies {
+  padding: 5% 10%;
+  background-color: greenyellow;
+}
+
+#image {
+  background-color: bisque;
+
+  padding: 2em 0;
+}
+
+img {
+  border: solid 3px;
+  border-radius: 50%;
+}
+
+#schedule {
+  padding: 5% 10%;
+}
+
+#table {
+  border: solid 1px black;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+th {
+  background-color: aqua;
+}
+
+#form {
+  padding: 5% 10%;
+  background-color: blanchedalmond;
+}
+
+#input {
+  display: flex;
+  flex-direction: row;
+}
+
+#form1 input {
+  padding: 5px 20px;
+}
+
+.coluna {
+  display: flex;
+  flex-direction: row;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+#form1 button {
+  color: white;
+  background-color: blue;
+  border: black solid 3px;
+  border-radius: 10%;
+}

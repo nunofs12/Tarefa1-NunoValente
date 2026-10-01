@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de Nuno Valente</title>
+    <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+<!-- menu de navegação -->
+<section id="nav">
+    <nav>
+      
+      <a href="#Sobre">Sobre mim</a>|
+      <a href="#hobbies">Hobbies</a>|
+      <a href="#image">Fotografia</a>|
+      <a href="#links">Páginas preferidas</a>|
+      <a href="#schedule">Horário</a>|
+      <a href="#form">Contacta-me</a>
+
+    </nav>
+</section>
+    <!-- Quem sou eu -->
+    <section id="Sobre">
+      
+      <div><img src="imgs/nuno.jpg" alt="foto-perfil" width="200px" /></div>
+      <div>
+        <h2>Quem sou eu</h2>
+      <p>
+        Chamo-me Nuno Filipe Sousa Valente, nasci a 29/7/1987 e sou de Coimbra.
+        Vivo atualmente em Mem Martins e estou a estudar Software Development.
+      </p>
+
+      <p>
+        Gosto de informática e de desenvolver aplicações web. Já trabalhei na
+        área, utilizando Wordpress, html e css. Tenho noções de JavaScript e de
+        SQL.
+      </p>
+    </div>
+    </section>
+
+    <!-- Hobbies -->
+    <section id="hobbies">
+      <h2>Os meus hobbies</h2>
+      <ul>
+        <li>Ler</li>
+        <li>Caminhar</li>
+        <li>Fotografar</li>
+        <li>Ver filmes/séries</li>
+        <li>Ouvir música</li>
+      </ul>
+
+      <ol>
+        <li>Arranjar um emprego como programador</li>
+        <li>Visitar a Costa Rica</li>
+        <li>Aprender a fotografar bem</li>
+      </ol>
+    </section>
+    
+
+    
+
+    <!-- Links favoritos -->
+
+    <section id="links">
+      <div></div>
+      <h2>Páginas favoritas</h2>
+      <a href="https://chatgpt.com/">Chat GPT</a>
+      <p>
+        O ChatGPT é um assistente de inteligência artificial conversacional
+        desenvolvido pela OpenAI que compreende linguagem natural para gerar
+        respostas em tempo real
+      </p>
+      </div><div>
+        <a href="https://developer.mozilla.org/en-US/">MDN</a>
+           <br />
+      <p>Resources for Developers, by Developers</p>
+      
+      <a href="https://www.udemy.com/">Udemy</a><br />
+      </div><div>
+      <p>
+        A Udemy ajuda você a desenvolver habilidades em alta com rapidez e
+        avançar na sua carreira em um mercado de trabalho dinâmico
+      </p>
+      </div>
+    </section>
+    <section id="schedule">
+      <!-- Horário/Tabela -->
+
+      <h2>O meu horário</h2>
+      <table id="table">
+        <thead>
+          <tr>
+            <th>Segunda</th>
+            <th>Terça</th>
+            <th>Quarta</th>
+            <th>Quinta</th>
+            <th>Sexta</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Algoritmia</td>
+            <td>React</td>
+            <td>JavaScript</td>
+            <td>HTML</td>
+            <td>Comunicação</td>
+          </tr>
+          <tr>
+            <td>React</td>
+            <td>Algoritmia</td>
+            <td>Programação web</td>
+            <td>Inglês</td>
+            <td>Agile</td>
+          </tr>
+          <tr>
+            <td>Programação web</td>
+            <td>CSS</td>
+            <td>JavaScript</td>
+            <td>HTML</td>
+            <td>JavaScript</td>
+          </tr>
+          <tr>
+            <td>C#</td>
+            <td>Inglês</td>
+            <td>Comunicação</td>
+            <td>HTML</td>
+            <td>JavaScript</td>
+          </tr>
+          
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Formulário -->
+
+    <section id="form">
+      <h2>Contacto</h2>
+      <br />
+      <form id="form1" action="utilit/success.html">
+        <div id="input>">
+        <div class="coluna">
+            <div class="left">
+              <label for="firstname">Primeiro Nome</label><br>
+              <label for="phone">Telefone</label>
+            </div>
+            <div class="right">
+              <input id="firstname" type="text" /><br>
+              <input id="phone" type="number" />
+            </div>
+        </div>
+
+        <div class="coluna">
+          <div class="left">
+            <label for="lastname">Último Nome</label><br>
+            <label for="email">Email</label>
+          </div>
+          <div class="right">   
+            <input id="lastname" type="text" /><br>
+            <input id="email" type="email" required />
+          </div>
+        </div>
+        </div>
+       
+        </div>
+        <label for="nation">Nacionalidade:</label>
+        <select name="nationality" id="nation">
+          <option value="">--Escolhe--</option>
+          <option value="PT">Portuguesa</option>
+          <option value="US">Americana</option>
+          <option value="ESP">Espanhola</option>
+        </select>
+        <p>Queres subscrever a minha newsletter?</p>
+        <div>
+          <input type="radio" id="yes" name="radio" value="yes" checked />
+          <label for="yes"><strong>Sim</strong></label>
+        </div>
+        <div>
+          <input type="radio" id="no" name="radio" value="no" />
+          <label for="no">Não</label>
+        </div>
+        <br />
+        <button type="submit">Submeter</button>
+        <button type="reset">Reset</button>
+      </form>
+    </section>
+  </body>
+</html>
